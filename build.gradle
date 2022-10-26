@@ -1,0 +1,11 @@
+plugins {
+    id "io.github.reyerizo.gradle.jcstress" version "0.8.13"
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+  implementation "io.grpc:grpc-core:latest.release"
+}
